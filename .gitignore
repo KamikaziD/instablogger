@@ -1,6 +1,11 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
 
+## SQLite ##
+
+*.db
+ib_api.db
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
