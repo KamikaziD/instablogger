@@ -3,9 +3,6 @@
 
 ## SQLite ##
 
-*.db
-ib_api.db
-
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
