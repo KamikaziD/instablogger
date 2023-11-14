@@ -1,8 +1,11 @@
 import datetime
-from db.database import Base
+# from db.database import Base
 from sqlalchemy.sql.schema import ForeignKey
 from sqlalchemy.orm import relationship
 from sqlalchemy import Column, Integer, String, DateTime
+from sqlalchemy.ext.declarative import declarative_base
+
+Base = declarative_base()
 
 
 class DbUser(Base):
