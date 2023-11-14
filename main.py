@@ -39,7 +39,6 @@ app.add_middleware(
     allow_headers=['*']
 )
 
-
 # Create the DB on first run
 models.Base.metadata.create_all(engine)
 

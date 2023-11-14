@@ -10,7 +10,7 @@
 
 #### Create a virtual environment
 ```commandline
-python3 -m venv env
+python -m venv env
 ```
 ```commandline
 source env/bin/activate
@@ -18,7 +18,7 @@ source env/bin/activate
 
 #### Install API requirements:
 ```commandline
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### SETUP ENV
@@ -36,7 +36,7 @@ openssl rand -hex 32
 * Add the generated key into the .env by AUTH_SECRET_KEY
 
 ### RUN APPLICATION
-* ```python3 main.py```
+* ```python main.py```
 * Browser url: ```http://localhost:8001```
 * Swagger url: ```http://localhost:8001/docs```
 * ReDoc url: ```http://localhost:8001/redoc```
